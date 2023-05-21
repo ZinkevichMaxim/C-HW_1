@@ -8,7 +8,7 @@ int A = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 int B = int.Parse(Console.ReadLine());
 if (A > B)
-{Console.WriteLine("Первое число больше второго");}
+{Console.WriteLine("Первое число больше второго, max = " + A);}
 else
-{Console.WriteLine("Второе число больше первого");}
+{Console.WriteLine("Второе число больше первого, max = " + B);}
 
