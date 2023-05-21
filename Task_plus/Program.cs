@@ -6,6 +6,6 @@ int x = int.Parse(Console.ReadLine());
 if(x < 0)
 {x = x * -1;}
 int z = x * -1;
-do {Console.WriteLine(z);
+do {Console.Write(z + "/");
     z = z + 1;}
     while (z <= x);
