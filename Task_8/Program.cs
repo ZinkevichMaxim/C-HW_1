@@ -9,9 +9,8 @@ int B = 1;
 do 
 if (B % 2 == 0)
 {
-    Console.Write(B);
-B = B + 1:\;
-}
+    Console.Write(B + ",");
+B = B + 1;}
 else
 {B = B+1;}
 while (B < A);
