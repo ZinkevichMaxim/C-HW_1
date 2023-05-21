@@ -6,10 +6,17 @@ Console.WriteLine("Введите число");
 int A = int.Parse(Console.ReadLine());
 int B = 1;
 
-while ((B < A) do
+do 
 if (B % 2 == 0)
-{Console.Write(B);}
+{
+    Console.Write(B);
+B = B + 1:\;
+}
 else
-{B = B+1;})
+{B = B+1;}
+while (B < A);
+
+
+
 
 
