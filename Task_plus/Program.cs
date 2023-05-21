@@ -3,6 +3,8 @@
 
 Console.WriteLine("Введите число");
 int x = int.Parse(Console.ReadLine());
+if(x < 0)
+{x = x * -1;}
 int z = x * -1;
 do {Console.WriteLine(z);
     z = z + 1;}
